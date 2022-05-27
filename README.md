@@ -145,5 +145,5 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 #### 远程库操作
 
-git remote add Git_Note https://github.com/xl34/Git_Note.git
+- git remote add Git_Note https://github.com/xl34/Git_Note.git
 
