@@ -74,7 +74,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
         - 系统用户级别：登录当前操作系统的用户范围
             - git config --global user.name xxxx
             - git config --global user.email xxxxxxxxxx
-            - 信息保存位置：C:/Users/用户名/.gitconfig文件<img src="C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527060441077.png" alt="image-20220527060441077"  />
+            - 信息保存位置：![image-20220527060441077](.\images\image-20220527060441077.png)
         - 级别优先级：
             - 就近原则：项目级别优先于系统用户级别，二者都有时采用项目级别的签名
             - 如果只有系统用户级别的签名，就以系统用户级别的签名为准
@@ -103,7 +103,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 > git log
 >
-> ![image-20220527081851674](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527081851674.png)
+> ![image-20220527081851674](.\images\image-20220527081851674.png)
 >
 > > 多屏显示控制方式:
 > >
@@ -115,15 +115,15 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 >
 > git log --pretty=online
 >
-> ![image-20220527082159727](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082159727.png)
+> ![image-20220527082159727](.\images\image-20220527082159727.png)
 >
 > git log --oneline
 >
-> ![image-20220527082235732](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082235732.png)
+> ![image-20220527082235732](.\images\image-20220527082235732.png)
 >
 > git reflog
 >
-> ![image-20220527082338618](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082338618.png)
+> ![image-20220527082338618](.\images\image-20220527082338618.png)
 >
 > > HEAD@{移动到当前版本需要多少步}
 
