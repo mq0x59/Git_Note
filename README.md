@@ -12,7 +12,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 2. 暂存区
 3. 本地库
 
-<img src="C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220526190048819.png" alt="image-20220526190048819" style="zoom: 50%;" />
+<img src=".\images\image-20220526190048819.png" alt="image-20220526190048819" style="zoom: 50%;" />
 
 
 ## 基本操作
