@@ -74,7 +74,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
         - 系统用户级别：登录当前操作系统的用户范围
             - git config --global user.name xxxx
             - git config --global user.email xxxxxxxxxx
-            - 信息保存位置：![image-20220527060441077](.\images\image-20220527060441077.png)
+            - 信息保存位置：<img src='.\images\image-20220527060441077.png'>
         - 级别优先级：
             - 就近原则：项目级别优先于系统用户级别，二者都有时采用项目级别的签名
             - 如果只有系统用户级别的签名，就以系统用户级别的签名为准
@@ -103,7 +103,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 > git log
 >
-> ![image-20220527081851674](.\images\image-20220527081851674.png)
+> <img src='.\images\image-20220527081851674.png'>
 >
 > > 多屏显示控制方式:
 > >
@@ -115,15 +115,15 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 >
 > git log --pretty=online
 >
-> ![image-20220527082159727](.\images\image-20220527082159727.png)
+> <img src= '.\images\image-20220527082159727.png'>
 >
 > git log --oneline
 >
-> ![image-20220527082235732](.\images\image-20220527082235732.png)
+> <img src = '.\images\image-20220527082235732.png'>
 >
 > git reflog
 >
-> ![image-20220527082338618](.\images\image-20220527082338618.png)
+> ![](.\images\image-20220527082338618.png)
 >
 > > HEAD@{移动到当前版本需要多少步}
 
@@ -147,3 +147,11 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 - git remote add Git_Note https://github.com/xl34/Git_Note.git
 
+#### 问题
+
+- 插入本地图片的图片地址直接用绝对路径在GitHub上会出现显示不了图片的问题
+
+    - 解决方案：
+        1.  在本地的提交项目上新建一个images文件夹用来存放图片![](.\images\image-20220527095139666.png)
+        2.  将所需图片放入到images中
+        3.  如果用的是Typora(markdown)编辑md文件，在插入图片时引入相对路劲即可
