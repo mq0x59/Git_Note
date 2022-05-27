@@ -55,7 +55,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 #### 本地库操作
 
-1. 本地库初始化
+##### 1. 本地库初始化
 
 命令：git init
 注意：.git目录中存放的是本地库相关的子目录和文件，不要删除，也不要随意修改。
@@ -74,13 +74,75 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
         - 系统用户级别：登录当前操作系统的用户范围
             - git config --global user.name xxxx
             - git config --global user.email xxxxxxxxxx
-            - 信息保存位置：C:/Users/用户名/.gitconfig文件<img src="C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527060441077.png" alt="image-20220527060441077" style="zoom: 80%;" />
+            - 信息保存位置：C:/Users/用户名/.gitconfig文件<img src="C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527060441077.png" alt="image-20220527060441077"  />
         - 级别优先级：
             - 就近原则：项目级别优先于系统用户级别，二者都有时采用项目级别的签名
             - 如果只有系统用户级别的签名，就以系统用户级别的签名为准
             - 二者都没有不允许
 
-2. 基本操作
+##### 2. 基本操作
 
-3. 分支管理
+1. 状态查看操作
 
+>git status
+>查看工作区、暂存区状态
+
+2. 添加操作
+
+> git add [file name]
+>
+> 将工作区的 “新建/修改” 添加到暂存区
+
+3. 提交操作
+
+> git commit -m "commit message" [file name]
+>
+> 将暂存区的内容提交到本地库
+
+4. 查看历史记录
+
+> git log
+>
+> ![image-20220527081851674](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527081851674.png)
+>
+> > 多屏显示控制方式:
+> >
+> > 空格向下翻页
+> >
+> > b 向上翻页
+> >
+> > q 退出
+>
+> git log --pretty=online
+>
+> ![image-20220527082159727](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082159727.png)
+>
+> git log --oneline
+>
+> ![image-20220527082235732](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082235732.png)
+>
+> git reflog
+>
+> ![image-20220527082338618](C:\Users\小六\AppData\Roaming\Typora\typora-user-images\image-20220527082338618.png)
+>
+> > HEAD@{移动到当前版本需要多少步}
+
+5. 前进后退
+
+> 本质：HEAD指针
+>
+> - 基于索引值操作
+>    - git reset --hard [局部索引值]
+>    - git reset --hard fb11604
+>    
+> - 使用^符号
+>
+> - 使用~符号
+
+##### 3. 分支管理
+
+--------------------------------------------------
+
+#### 远程库操作
+
+git remote add xxxx https://
