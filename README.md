@@ -123,7 +123,7 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 >
 > git reflog
 >
-> ![](.\images\image-20220527082338618.png)
+> <img src= '.\images\image-20220527082338618.png'>
 >
 > > HEAD@{移动到当前版本需要多少步}
 
@@ -152,6 +152,6 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 - 插入本地图片的图片地址直接用绝对路径在GitHub上会出现显示不了图片的问题
 
     - 解决方案：
-        1.  在本地的提交项目上新建一个images文件夹用来存放图片![](.\images\image-20220527095139666.png)
+        1.  在本地的提交项目上新建一个images文件夹用来存放图片<img src= '.\images\image-20220527095139666.png'>
         2.  将所需图片放入到images中
         3.  如果用的是Typora(markdown)编辑md文件，在插入图片时引入相对路劲即可
