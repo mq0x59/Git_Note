@@ -1,3 +1,5 @@
+
+
 # Git学习笔记
 
 ## Git简介
@@ -145,7 +147,12 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
 
 #### 远程库操作
 
-- git remote add Git_Note https://github.com/xl34/Git_Note.git
+- git remote -v 查看当前所有远程地址别名
+- git remote add [别名]  [远程地址]
+    - git remote add Git_Note https://github.com/xl34/Git_Note.git
+- 推送
+    - git push [别名] [分支名]
+    - git push Git_Note master
 
 #### 问题
 
@@ -154,4 +161,6 @@ Git与常用的版本控制工具CVS，Subbversion等不同，它采用分布式
     - 解决方案：
         1.  在本地的提交项目上新建一个images文件夹用来存放图片<img src= '.\images\image-20220527095139666.png'>
         2.  将所需图片放入到images中
-        3.  如果用的是Typora(markdown)编辑md文件，在插入图片时引入相对路劲即可
+        3.  如果用的是Typora(markdown)编辑md文件，在插入图片时引入相对路劲即可。
+        如：<img src= 'images\image-20220527104913126.png'>
+
